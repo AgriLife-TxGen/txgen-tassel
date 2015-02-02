@@ -26,7 +26,6 @@ our $step=0;
 # Create output directories
 my $dirname = dirname(__FILE__);
 my $OUT = "$dirname/out.$date";
-my $OUT = "$dirname/out.2File";
 my $LogFolder = "$OUT/log";
 mkdir $OUT;
 mkdir $LogFolder;
