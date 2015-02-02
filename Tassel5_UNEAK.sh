@@ -20,7 +20,7 @@ step=0
 
 # Create output directories
 cd `dirname $0`
-mkdir $OUT $OUT/tagCounts $OUT/log
+mkdir $OUT $OUT/TagCounts $OUT/log
 
 # Convenience function to call TASSEL and save logs
 function tassel() {
