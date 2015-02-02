@@ -17,6 +17,16 @@ our $ENZYME       = "ApeKI";
 our $COMMAND      = "run_pipeline5.bat"; 
 ##################################################
 
+# Comments #######################################
+#
+# You can test this script with the 200K sample 
+# data from Tassel/GBS. Just copy the key file 
+# into the 0-key folder (with same name as here,
+# and the two fastq files into the 0-Illumina
+# folder.
+#
+##################################################
+
 # Base output directory on timestamp
 my $date = localtime->strftime('%Y%m%d%H%M%S');
 
